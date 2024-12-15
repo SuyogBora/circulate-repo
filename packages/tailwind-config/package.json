@@ -1,0 +1,30 @@
+{
+  "name": "@circulate/tailwind-config",
+  "version": "0.0.6",
+  "description": "Tailwind CSS config for circulate.co",
+  "main": "index.ts",
+  "types": "index.ts",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "^15.1.0"
+  },
+  "devDependencies": {
+    "react": "^19.0.0",
+    "next": "15.1.0",
+    "tsup": "^6.1.3",
+    "@circulate/eslint-config": "workspace:*",
+    "@circulate/typescript-config": "workspace:*",
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {},
+  "author": "Suyog Bora",
+  "publishConfig": {
+    "access": "public"
+  }
+}
